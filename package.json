@@ -1,0 +1,39 @@
+{
+  "name": "generatepress-childtheme",
+  "version": "1.0.0",
+  "description": "Tema hijo de Wordpress para la tienda online ACME domotics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jar32/generatepress-childtheme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jar32/generatepress-childtheme/issues"
+  },
+  "homepage": "https://github.com/jar32/generatepress-childtheme#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^1.1.3",
+    "url-loader": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.41.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  }
+}
