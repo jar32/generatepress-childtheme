@@ -21,3 +21,14 @@ function tu_custom_copyright() {
     © 2020 ACME Domotics
     <?php
 }
+
+function my_login_logo() { ?>
+    <style type="text/css">
+        .login h1 a {
+            width: auto !important;
+            background-image: url("<?php echo get_stylesheet_directory_uri();?>/assets/logo.png") !important;
+            background-size: 50% !important;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
