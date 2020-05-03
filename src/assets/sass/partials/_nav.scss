@@ -1,0 +1,49 @@
+/*
+ * Top Bar
+ */
+
+.top-bar {
+  background: $color-pink;
+  color: $color-light;
+}
+
+.topbar-widget{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*
+ * Navbar
+ */
+
+nav.main-navigation{
+  position: sticky;
+  top: 0;
+  background: $color-dark-blue;
+  box-shadow: 0px 2px 2px #55555533;
+  & .main-nav{
+    & ul{
+      & li {
+
+        &:hover > a{
+          color: $color-light;
+          background-color: $color-aqua;
+        }
+        &[class*="current-menu-"] > a{
+          color: $color-light;
+          background-color: $color-aqua;
+        }
+      }
+    }
+  }
+}
+
+
+/*
+ * WP Admin Bar
+ */
+/*html{
+  margin-top: 0 !important;
+}
+#wpadminbar{ top:unset; bottom: 0px;}*/

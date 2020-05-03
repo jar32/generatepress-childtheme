@@ -1,0 +1,40 @@
+.site-info{
+  background: $color-dark-blue;
+}
+
+.footer-widgets{
+  background: $color-aqua;
+  color: $color-dark-blue;
+  & a{
+    color: $color-dark-blue;
+  }
+
+}
+
+.inside-footer-widgets{
+  & h2.widget-title{
+    color: $color-dark-blue !important;
+    text-align: center;
+  }
+}
+
+.footer-rss{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-widget-3{
+  & .widget_media_image{
+    text-align: right;
+
+    & img{
+      width: 50%;
+    }
+  }
+}
+
+.copyright-bar >:not(span){
+  display: none;
+}
+.copyright-bar span{
+  //display: inline-block;
+}

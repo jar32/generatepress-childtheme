@@ -1,0 +1,19 @@
+.acme-icon{
+  transition: .3s;
+  &:hover{
+    opacity: .6;
+  }
+}
+.acme-icon::before{
+  font-size: 16px;
+
+}
+.acme-icon-facebook::before{
+  content: url("../img/facebook-icon.svg") !important;
+}
+.acme-icon-youtube::before{
+  content: url("../img/youtube-icon.svg") !important;
+}
+.acme-icon-twitter::before{
+  content: url("../img/twitter-icon.svg") !important;
+}

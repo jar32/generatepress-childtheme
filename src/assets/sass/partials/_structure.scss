@@ -1,0 +1,22 @@
+
+.entry-header{
+  padding: 1em 40px;
+  background-color: #36a9b8;
+  color: white;
+  & h1{
+    font-weight: bold;
+  }
+}
+
+.type-page{
+  box-shadow: 0px 2px 2px #55555533;
+}
+
+.entry-meta{
+ & span {
+   color: $color-light;
+   & a:visited{
+     color: $color-dark-blue;
+   }
+ }
+}

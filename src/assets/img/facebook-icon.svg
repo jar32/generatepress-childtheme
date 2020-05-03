@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="32"
+   height="32"
+   viewBox="0 0 32 32.000002"
+   enable-background="new 0 0 266.893 266.895"
+   xml:space="preserve"
+   sodipodi:docname="facebook-icon.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   id="namedview5"
+   showgrid="false"
+   inkscape:zoom="5.0020332"
+   inkscape:cx="20.909943"
+   inkscape:cy="20.308624"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<path
+   id="Blue_1_"
+   d="m 28.999882,30.61071 c 0.884142,0 1.601114,-0.716973 1.601114,-1.60134 V 3.1999343 c 0,-0.88448 -0.71686,-1.601227 -1.601114,-1.601227 H 3.1904468 c -0.88448,0 -1.6012274,0.716747 -1.6012274,1.601227 V 29.00937 c 0,0.884254 0.7166348,1.60134 1.6012274,1.60134 z"
+   inkscape:connector-curvature="0"
+   style="fill:#080631;stroke-width:1;fill-opacity:1" />
+<path
+   id="f"
+   d="M 21.606926,30.61071 V 19.375663 h 3.771057 l 0.564662,-4.378497 h -4.335719 v -2.795393 c 0,-1.267676 0.352013,-2.131555 2.169829,-2.131555 l 2.318538,-0.001 V 6.1530453 c -0.400982,-0.05336 -1.77729,-0.172574 -3.378518,-0.172574 -3.342832,0 -5.631426,2.040485 -5.631426,5.7876767 v 3.229022 h -3.780738 v 4.378493 h 3.780738 V 30.61071 Z"
+   inkscape:connector-curvature="0"
+   style="fill:#36a9b8;stroke-width:1;fill-opacity:1" />
+</svg>

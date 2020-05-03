@@ -1,0 +1,43 @@
+// View more
+button.view-more{
+  & span{
+    display: flex;
+    align-content: center;
+  }
+}
+
+// Default Button
+button.button, input.submit, .button a.wp-block-button__link{
+  background-color: $color-aqua;
+
+  padding: 0.9rem 3.7rem;
+  border: none;
+  box-shadow: 0 0 2px #0000008c;
+  transition: .3s;
+  outline: none;
+  //font-family: "Inter",sans-serif;
+  cursor: pointer;
+  & span{
+    //display: inline-block;
+    color: #fff;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.25rem;
+
+  }
+  &:hover{
+    background: $color-turqaise;
+  }
+}
+
+button.button-skew{
+
+  transform: skew(-45deg);
+
+  & span{
+
+    transform: skew(45deg);
+  }
+
+}

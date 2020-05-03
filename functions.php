@@ -1,6 +1,6 @@
 <?php
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-function my_theme_enqueue_styles() {
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue' );
+function my_theme_enqueue() {
  
     $parent_style = 'generatepress-style'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.
  
@@ -10,4 +10,14 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
+
+    wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/assets/app.min.js', array ( 'jquery' ), 1.1, true);
+}
+
+
+add_filter( 'generate_copyright','tu_custom_copyright' );
+function tu_custom_copyright() {
+    ?>
+    © 2020 ACME Domotics
+    <?php
 }
