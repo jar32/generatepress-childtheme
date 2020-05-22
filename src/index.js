@@ -1,4 +1,4 @@
-import _ from 'lodash';
+//import _ from 'lodash';
 import './assets/sass/style.scss';
 import './assets/js/scripts.js';
 /*function component() {
