@@ -13,3 +13,13 @@ li.sales-flash-overlay{
     color: $color-aqua;
     font-size: 20px;
 }
+
+.woocommerce ul.products li.product.sales-flash-overlay .onsale {
+    background-color: #b63e74;
+}
+
+h2.woocommerce-loop-product__title {
+    padding: 10px !important;
+    color: #080631;
+    font-weight: bold !important;
+}

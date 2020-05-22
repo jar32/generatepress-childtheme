@@ -51,3 +51,11 @@ button.button-skew{
     background-color: $color-turqaise !important;
   }
 }
+
+button, html input[type=button], input[type=reset], input[type=submit], a.button, a.button:visited, a.wp-block-button__link:not(.has-background) {
+  color: #ffffff;
+  background-color: $color-aqua !important;
+  &:hover{
+    background-color: $color-turqaise !important;
+  }
+}
