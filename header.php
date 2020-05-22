@@ -28,22 +28,22 @@ if ( ! defined( 'ABSPATH' ) ) {
     gtag('config', 'UA-164606242-1');
     </script>
 	<script>
-var doofinder_script ='//cdn.doofinder.com/media/js/doofinder-classic.7.latest.min.js';
-(function(d,t){var f=d.createElement(t),s=d.getElementsByTagName(t)[0];f.async=1;
-f.src=('https:'==location.protocol?'https:':'http:')+doofinder_script;
-f.setAttribute('charset','utf-8');
-s.parentNode.insertBefore(f,s)}(document,'script'));
+		var doofinder_script ='//cdn.doofinder.com/media/js/doofinder-classic.7.latest.min.js';
+		(function(d,t){var f=d.createElement(t),s=d.getElementsByTagName(t)[0];f.async=1;
+		f.src=('https:'==location.protocol?'https:':'http:')+doofinder_script;
+		f.setAttribute('charset','utf-8');
+		s.parentNode.insertBefore(f,s)}(document,'script'));
 
-var dfClassicLayers = [{
-  "hashid": "b84241003e0def6e43a4416858780ecb",
-  "zone": "eu1",
-  "display": {
-    "lang": "es"
-  },
-  "queryInput": "input[name='s']",
-  "toggleInput": "input[name='s']"
-}];
-</script>
+		var dfClassicLayers = [{
+		"hashid": "b84241003e0def6e43a4416858780ecb",
+		"zone": "eu1",
+		"display": {
+			"lang": "es"
+		},
+		"queryInput": "input[name='s']",
+		"toggleInput": "input[name='s']"
+		}];
+	</script>
 </head>
 
 <body <?php body_class(); ?> <?php generate_do_microdata( 'body' ); ?>>

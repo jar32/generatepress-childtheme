@@ -15,7 +15,7 @@ jQuery(".view-more").click(function () {
 /***************************************
  * Doofinder Integration
  **************************************/
-jQuery( document ).ready(function() {
+/*jQuery( document ).ready(function() {
     console.log("dufainder");
 var doofinder_script ='//cdn.doofinder.com/media/js/doofinder-classic.7.latest.min.js';
 (function(d,t){var f=d.createElement(t),s=d.getElementsByTagName(t)[0];f.async=1;
@@ -32,4 +32,4 @@ var dfClassicLayers = [{
   "queryInput": "input[name='s']",
   "toggleInput": "input[name='s']"
 }];
-});
+});*/
