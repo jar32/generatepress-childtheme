@@ -41,3 +41,13 @@ button.button-skew{
   }
 
 }
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+  color: #ffffff;
+  background-color: $color-aqua !important;
+  font-weight: normal;
+  text-transform: none;
+  &:hover{
+    background-color: $color-turqaise !important;
+  }
+}

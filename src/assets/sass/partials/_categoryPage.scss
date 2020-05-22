@@ -1,0 +1,15 @@
+li.sales-flash-overlay.product-type-simple {
+    box-shadow: 0 0 2px #00000052;
+    padding-bottom: 1em !important;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: .3s;
+    &:hover{
+        box-shadow: 0 0 8px #00000052;
+    }
+}
+
+.woocommerce-Price-amount.amount{
+    color: $color-aqua;
+    font-size: 20px;
+}

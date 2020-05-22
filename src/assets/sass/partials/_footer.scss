@@ -38,3 +38,14 @@
 .copyright-bar span{
   //display: inline-block;
 }
+
+
+@media (max-width: 678px) {
+  .inside-footer-widgets{
+
+      text-align: center;
+    & .widget_media_image{
+      text-align: center;
+    }
+  }
+}

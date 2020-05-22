@@ -1,0 +1,35 @@
+/*
+ * Tabs
+ */
+
+.tabs.wc-tabs{
+    margin: 0 !important;
+    & li{
+        background-color:$color-aqua !important;
+        &.active{
+            background-color:$color-dark-blue !important;
+        }
+        & a{
+            color: $color-light !important;
+        }
+        
+    }
+}
+
+.woocommerce-Tabs-panel{
+    background-color: $color-dark-blue;
+    color: $color-light;
+    padding: 1em !important;
+}
+
+
+.product-template-default{
+    & .product_title.entry-title{
+        font-weight: bold;
+        color: $color-dark-blue;
+    }
+    & .woocommerce-Price-amount.amount{
+        color: $color-aqua;
+        font-size: 30px;
+    }
+}

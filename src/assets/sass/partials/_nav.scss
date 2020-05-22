@@ -47,3 +47,10 @@ nav.main-navigation{
   margin-top: 0 !important;
 }
 #wpadminbar{ top:unset; bottom: 0px;}*/
+
+@media (max-width: 678px) {
+  .inside-top-bar{
+      display: flex;
+      align-items: center;
+  }
+}
